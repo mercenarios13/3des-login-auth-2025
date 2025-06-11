@@ -7,7 +7,7 @@ const Login = (req, res) => {
     try {
         const correctPassword = ((user === process.env.USER) && (psw === process.env.PASSWD));
 
-        if(!correctPassword) res.status(401).send({message:'E-mail or Password incorrect !'});
+        if(!correctPassword) res.status(401).send({message:'E-mail ou senha incorretas!'});
 
         const token = jsonwebtoken.sign(
             {

@@ -1,5 +1,6 @@
 require("dotenv").config();
 const express = require('express');
+const cors = require('cors');
 const app = express();
 const port = 4000;
 
@@ -11,6 +12,7 @@ const teste = (req, res) => {
     console.log('Rota de teste acessada');
 }
 
+app.use(cors());
 app.use(express.json());
 app.get('/', teste);
 app.use(loginRoutes);
