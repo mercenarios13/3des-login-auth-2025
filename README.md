@@ -136,8 +136,8 @@ Authorization: Bearer <token>
 
 ### Integrantes do grupo:
 
-- Hélio Alves de Oliveira
+- Jessé Oliveira
 
-- Diego Maradona Preti Costa Figuerêdo
+- Pedro Henrique
 
-- Arthur Souza de Oliveira
+- Vitor Alexandre
